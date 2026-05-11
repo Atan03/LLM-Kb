@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5bc675435b092fc7",
+        "id": "b31b01cb08664ace",
         "type": "tabs",
         "children": [
           {
-            "id": "01f44b56119c6acd",
+            "id": "ecf13ab2d71031cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/questions/threadlocal-business-risks.md",
+                "file": "interview/questions/java-lock-types-implementations.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "threadlocal-business-risks"
+              "title": "java-lock-types-implementations"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280.5
   },
   "right": {
     "id": "4f7cb95f51696d9d",
@@ -180,34 +180,38 @@
       "bases:新建数据库": false
     }
   },
-  "active": "01f44b56119c6acd",
+  "active": "ecf13ab2d71031cf",
   "lastOpenFiles": [
+    "interview/questions/spring-annotation-implementation.md",
+    "interview/questions/spring-bean-construction-requirements.md",
+    "interview/questions/mcp-agent-implementation.md",
+    "interview/questions/spring-sourcecode-design-patterns.md",
     "interview/outlines/backend-system-design.md",
-    "interview/outlines/jvm.md",
-    "interview/outlines/database.md",
-    "interview/outlines/java-concurrency.md",
-    "interview/outlines/redis.md",
-    "interview/outlines/llm-application.md",
-    "interview/outlines/agent.md",
-    "interview/questions/temperature-topk-decoding.md",
-    "interview/questions/tcp-reliable-delivery.md",
-    "interview/questions/tcp-congestion-control.md",
-    "interview/questions/redis-hash-big-key-sharding-migration.md",
-    "interview/questions/react-vs-plan-execute-replan.md",
-    "interview/questions/jvm-object-creation-memory-changes.md",
-    "interview/questions/jvm-gc-trigger-conditions.md",
-    "interview/questions/function-call-mcp-skill-rules.md",
-    "interview/questions/database-transaction-acid.md",
-    "interview/README.md",
-    "interview/questions/threadlocal-business-risks.md",
-    "interview/questions/agent-token-cost-optimization.md",
-    "interview/inbox/proposed-topics.md",
-    "interview/_meta/topics.md",
+    "interview/questions/java-aqs-reentrantlock.md",
+    "interview/questions/osi-seven-layer-model.md",
+    "interview/questions/java-string-immutability-and-pool.md",
+    "interview/questions/tcp-three-way-handshake.md",
+    "concepts/tcp-reliability.md",
+    "interview/questions/agent-observability-trace.md",
+    "interview/_meta/merge-log.md",
+    "interview/questions/java-lock-types-implementations.md",
+    "interview/questions/java-cas-atomic-operations.md",
+    "interview/_meta/outline-registry.md",
     "interview/_meta/reframe-queue.md",
     "interview/_meta/question-template.md",
-    "interview/_meta/question-registry.md",
     "interview/_meta/outline-template.md",
-    "interview/_meta/outline-registry.md",
+    "interview/_meta/source-ingest-index.md",
+    "entities/spring-framework.md",
+    "concepts/spring-ioc-container.md",
+    "concepts/spring-event-observer.md",
+    "interview/questions/memory-retrieval-rag.md",
+    "interview/outlines/rag.md",
+    "interview/questions/memory-system-design.md",
+    "interview/questions/function-calling-planning-and-tool-orchestration.md",
+    "system-architecture.canvas",
+    "logs/archive",
+    "logs",
+    "interview/sources",
     "interview/questions",
     "interview/outlines",
     "interview/inbox",

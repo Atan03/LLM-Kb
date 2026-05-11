@@ -13,9 +13,10 @@ sources:
 source_questions:
   - Function Call、MCP、Skill 的区别？
   - Skills 和 Rules 的区别？
-summary: 考察 Agent 应用栈分层：模型结构化调用能力、协议集成、技能封装和行为约束。
+  - 怎么实现的 MCP 和 Agent？（含 ReAct 架构）
+summary: 考察 Agent 应用栈分层：模型结构化调用能力、协议集成、技能封装和行为约束，以及 MCP Server/Client 工程实现和 ReAct Agent 架构。
 created: 2026-05-06T19:40:11+08:00
-updated: 2026-05-06T19:40:11+08:00
+updated: 2026-05-11T17:00:00+08:00
 ---
 
 # Function Call、MCP、Skill 和 Rules 有什么区别？

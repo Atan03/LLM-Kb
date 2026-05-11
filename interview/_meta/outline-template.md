@@ -19,21 +19,21 @@ updated: 2026-05-03T00:00:00Z
 
 # Agent Interview Outline
 
-## Why This Topic Matters
+## Study Guide
 
-## Chapter 1. Foundation
+Use this section to explain the topic as a compact teaching note. Do not start by counting how many questions exist or listing the current inventory in prose. The guide should read like durable interview preparation, not a sync report.
 
-### Questions
+## Interview Thread
+
+Describe how the current questions relate to each other and what answer pattern they are testing.
+
+## Questions
+
 - [[interview/questions/example]]
 
-### Concepts
+## Key Concepts
+
 - [[concepts/example]]
-
-## Chapter 2. Core Mechanisms
-
-## Chapter 3. High-Frequency Questions
-
-## Chapter 4. New Directions
 
 ## Open Gaps
 ```

@@ -2,43 +2,56 @@
 title: Java Concurrency Interview Outline
 category: interview-outline
 topic: java-concurrency
-summary: Lecture-style revision outline for Java concurrency production pitfalls.
-question_count: 1
-chapter_count: 3
+summary: Compact study guide for current Java concurrency production-risk questions.
+question_count: 5
+chapter_count: 0
 status: growing
 created: 2026-05-07T00:00:00+08:00
-updated: 2026-05-07T00:00:00+08:00
+updated: 2026-05-11T17:00:00+08:00
 ---
 
 # Java Concurrency Interview Outline
 
-## Why This Topic Matters
+## Study Guide
 
-Java 并发题不只是 API 背诵，更关注线程池、上下文传递、生命周期和生产事故。ThreadLocal 是高频切口，因为它看似方便，实际很容易在池化线程里造成串号和内存泄漏。
+Java 并发面试常见两类题：一类是“线程怎么协作收敛”（并发 fanout-fanin），另一类是“线程上下文怎么安全管理”（ThreadLocal 与线程池复用）。两类题本质都在考并发边界、失败处理和可维护性。
 
-## Chapter 1. Thread-Scoped State Is Dangerous In Pools
+并发收敛题可以从 `CountDownLatch` 和 `CompletableFuture.allOf()` 两种思路讲：前者简单直接，后者更适合异步组合、异常传播、超时控制和结果聚合。只讲“等完成”不够，要讲某子任务超时、失败、部分结果返回时的策略。
 
-ThreadLocal 的语义是线程内变量，但 Web 服务里的线程会复用。如果请求结束后不清理，下一次复用同一线程的请求可能读到旧用户、旧租户或旧 trace 上下文。
+线程上下文题则从线程池复用切入。Web 请求 A 在 ThreadLocal 里放了用户信息，如果请求结束没有 `remove()`，这个线程回到线程池后又处理请求 B，B 就可能读到 A 的上下文，出现串号、越权或日志链路污染。这是数据污染问题。
 
-### Questions
+第二层是内存泄漏。ThreadLocalMap 的 key 是弱引用，但 value 是强引用；线程池线程长期存活时，如果没有清理，value 可能长期挂在线程上。生产规范因此很明确：能不用隐式上下文就不用；必须用时统一封装，并在 `try...finally` 中清理。
 
+## Interview Thread
+
+建议先复习 `[[interview/questions/concurrent-search-thread-coordination]]`，再复习 `[[interview/questions/threadlocal-business-risks]]`。前者讲任务协同收敛，后者讲线程上下文安全；组合起来更像生产并发系统的完整答题链路。
+
+## Questions
+
+- [[interview/questions/concurrent-search-thread-coordination]]
 - [[interview/questions/threadlocal-business-risks]]
+- [[interview/questions/java-lock-types-implementations]]
+- [[interview/questions/java-aqs-reentrantlock]]
+- [[interview/questions/java-cas-atomic-operations]]
 
-### Concepts
+## Key Concepts
 
 - ThreadLocal
 - Thread Pool
+- CountDownLatch
+- CompletableFuture
+- Fanout-Fanin
+- ThreadLocalMap
 - Context Leakage
 - Memory Leak
-
-## Chapter 2. Cleanup Must Be A Contract
-
-如果必须使用 ThreadLocal，应封装统一入口，并在 `try...finally` 中调用 `remove()`。跨线程异步任务要特别小心，因为上下文不会天然安全传播，强行传播也可能扩大污染范围。
-
-## Chapter 3. Interview Answer Pattern
-
-回答 ThreadLocal 风险时，要把“线程池复用导致数据污染”和“ThreadLocalMap value 强引用导致泄漏”分开讲，再落到生产规范：少用、封装、finally 清理、避免存大对象。
+- `try...finally remove()`
+- Synchronized
+- Lock Upgrade（Biased → Lightweight → Heavyweight）
+- AQS / CLH Queue
+- CAS / ABA Problem
+- ReentrantLock / Condition
+- StampedLock
 
 ## Open Gaps
 
-- 缺少锁、AQS、线程池参数、CompletableFuture、volatile 和 Java 内存模型题。
+- volatile、Java 内存模型（JMM）、CompletableFuture 和异步上下文传播题还缺少。

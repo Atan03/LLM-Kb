@@ -60,3 +60,139 @@ Update this whenever interview ingestion creates a new canonical question or mer
   - Topic: `backend-system-design`
   - Variants: `1`
   - Last merged: `2026-05-06 19:40:11 CST`
+- `[[interview/questions/memory-system-design]]`
+  - Topic: `memory-and-context`
+  - Variants: `3`
+  - Last merged: `2026-05-11 12:00:00 CST`
+- `[[interview/questions/memory-retrieval-rag]]`
+  - Topic: `rag`
+  - Variants: `3`
+  - Last merged: `2026-05-11 12:00:00 CST`
+- `[[interview/questions/agent-observability-trace]]`
+  - Topic: `evaluation`
+  - Variants: `3`
+  - Last merged: `2026-05-11 12:00:00 CST`
+- `[[interview/questions/ai-coding-fullstack-context-consistency]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/langgraph-components-and-advantages]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/deepagents-and-agent-swarm-architecture]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/agent-evaluation-system-and-bad-cases]]`
+  - Topic: `evaluation`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/skill-system-design-general-and-specific]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/prompt-engineering-layered-design]]`
+  - Topic: `prompt-engineering`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/sft-vs-rl-for-model-training]]`
+  - Topic: `model-serving`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/local-llm-deployment-gpu-vllm-cuda]]`
+  - Topic: `model-serving`
+  - Variants: `1`
+  - Last merged: `2026-05-08 16:37:44 CST`
+- `[[interview/questions/concurrent-search-thread-coordination]]`
+  - Topic: `java-concurrency`
+  - Variants: `1`
+  - Last merged: `2026-05-09 10:43:12 CST`
+- `[[interview/questions/kafka-throughput-vs-latency-tradeoff]]`
+  - Topic: `mq`
+  - Variants: `1`
+  - Last merged: `2026-05-09 10:43:12 CST`
+- `[[interview/questions/long-running-task-state-polling-vs-mq]]`
+  - Topic: `mq`
+  - Variants: `1`
+  - Last merged: `2026-05-09 10:43:12 CST`
+- `[[interview/questions/multi-agent-three-layer-orchestration]]`
+  - Topic: `agent`
+  - Variants: `2`
+  - Last merged: `2026-05-09 10:43:12 CST`
+- `[[interview/questions/rag-retrieval-quality-trigger-hybrid-rerank]]`
+  - Topic: `rag`
+  - Variants: `3`
+  - Last merged: `2026-05-09 10:43:12 CST`
+- `[[interview/questions/rag-anti-poisoning-and-source-trust]]`
+  - Topic: `rag`
+  - Variants: `1`
+  - Last merged: `2026-05-09 10:43:12 CST`
+- `[[interview/questions/context-compression-trigger-strategy]]`
+  - Topic: `llm-application`
+  - Variants: `3`
+  - Last merged: `2026-05-11 12:00:00 CST`
+- `[[interview/questions/long-running-agent-workflow-persistence-and-resume]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-09 12:00:00 CST`
+- `[[interview/questions/claude-code-hooks-engineering-controls]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-09 12:00:00 CST`
+- `[[interview/questions/decorator-pattern-and-practical-usage]]`
+  - Topic: `backend-system-design`
+  - Variants: `1`
+  - Last merged: `2026-05-09 12:00:00 CST`
+- `[[interview/questions/spring-sourcecode-design-patterns]]`
+  - Topic: `backend-system-design`
+  - Variants: `1`
+  - Last merged: `2026-05-09 12:00:00 CST`
+- `[[interview/questions/mysql-locking-and-optimistic-vs-pessimistic]]`
+  - Topic: `database`
+  - Variants: `2`
+  - Last merged: `2026-05-09 12:00:00 CST`
+- `[[interview/questions/context-engineering-and-memory-design]]`
+  - Topic: `llm-application`
+  - Variants: `4`
+  - Last merged: `2026-05-11 15:07:11 CST`
+- `[[interview/questions/function-calling-planning-and-tool-orchestration]]`
+  - Topic: `agent`
+  - Variants: `4`
+  - Last merged: `2026-05-11 15:07:11 CST`
+- `[[interview/questions/tcp-three-way-handshake]]`
+  - Topic: `backend-system-design`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/osi-seven-layer-model]]`
+  - Topic: `backend-system-design`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/java-string-immutability-and-pool]]`
+  - Topic: `backend-system-design`
+  - Variants: `2`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/java-aqs-reentrantlock]]`
+  - Topic: `java-concurrency`
+  - Variants: `2`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/java-cas-atomic-operations]]`
+  - Topic: `java-concurrency`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/java-lock-types-implementations]]`
+  - Topic: `java-concurrency`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/spring-annotation-implementation]]`
+  - Topic: `backend-system-design`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/spring-bean-construction-requirements]]`
+  - Topic: `backend-system-design`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/mcp-agent-implementation]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-11 17:00:00 CST`

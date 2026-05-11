@@ -10,6 +10,7 @@ If a new direction does not fit cleanly, add it to `../inbox/proposed-topics.md`
 
 ## Current Topics
 
+- `algorithms` - data structures, algorithm design, coding patterns, complexity analysis
 - `agent` - agent architecture, planning, tool use, memory, orchestration, evaluation
 - `llm-application` - end-to-end LLM app patterns, product/system concerns, trade-offs
 - `rag` - retrieval, indexing, chunking, reranking, grounding, freshness

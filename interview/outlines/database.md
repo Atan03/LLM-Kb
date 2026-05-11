@@ -2,44 +2,48 @@
 title: Database Interview Outline
 category: interview-outline
 topic: database
-summary: Lecture-style revision outline for database transaction fundamentals.
-question_count: 1
-chapter_count: 3
+summary: Compact study guide for database transaction and locking interview questions.
+question_count: 2
+chapter_count: 0
 status: growing
 created: 2026-05-07T00:00:00+08:00
-updated: 2026-05-07T00:00:00+08:00
+updated: 2026-05-09T11:17:19+08:00
 ---
 
 # Database Interview Outline
 
-## Why This Topic Matters
+## Study Guide
 
-数据库基础题经常用 ACID 开场，再追问隔离级别、MVCC、undo log、redo log 和锁。一个好的回答不能只背四个单词，要能把语义目标和底层机制连起来。
+数据库事务题的主线可以这样记：事务是数据库给业务的一份承诺，ACID 是这份承诺的四个侧面。面试官通常不是想听四个英文单词，而是想看你能不能把事务语义和数据库底层机制连起来。
 
-## Chapter 1. ACID Is The Contract
+原子性说的是“要么都做，要么都不做”，重点可以落到 undo log 和回滚；一致性说的是“事务前后业务规则仍然成立”，它是最终目标，不要硬说由某个单独机制保证；隔离性说的是“并发事务之间不能互相踩脏数据”，可以接到锁、MVCC 和隔离级别；持久性说的是“提交后不能因为宕机丢失”，可以接到 redo log 和崩溃恢复。
 
-原子性保证事务要么全成功要么全回滚；一致性保证业务约束在事务前后成立；隔离性控制并发事务之间的互相影响；持久性保证提交后的修改能在故障后恢复。
+事务基础题的答题节奏不要铺太散。先用一句话报出 ACID，再每个特性给一个语义解释和一个底层支撑，最后主动补一句“一致性是业务正确性的目标，其他机制共同服务于它”。这样比机械背诵更像理解过数据库。
 
-### Questions
+## Interview Thread
+
+建议先讲 `[[interview/questions/database-transaction-acid]]` 建立事务语义，再讲 `[[interview/questions/mysql-locking-and-optimistic-vs-pessimistic]]` 落到并发控制策略。后续最容易被追问的是：
+
+- undo log 和 redo log 分别解决什么问题？
+- 隔离性为什么需要 MVCC 和锁？
+- 不同隔离级别解决哪些读现象？
+
+## Questions
 
 - [[interview/questions/database-transaction-acid]]
+- [[interview/questions/mysql-locking-and-optimistic-vs-pessimistic]]
 
-### Concepts
+## Key Concepts
 
 - ACID
 - Transaction
-- MVCC
 - undo log
 - redo log
-
-## Chapter 2. Mechanism Mapping
-
-undo log 常用于支持回滚和历史版本，redo log 支持崩溃恢复，锁和 MVCC 支撑隔离性。需要注意，一致性是最终目标，不应该简单归因给某一个日志。
-
-## Chapter 3. Interview Answer Pattern
-
-回答事务特性时，可以先一句话讲 ACID，再逐个映射机制，最后主动引出隔离级别和 MVCC。这样能自然承接面试官追问。
+- MVCC
+- Isolation Level
+- Record/Gap/Next-Key Lock
+- Optimistic vs Pessimistic Lock
 
 ## Open Gaps
 
-- 缺少索引、隔离级别、MVCC 细节、锁、主从复制、分库分表和慢 SQL 题。
+- 还缺少隔离级别、MVCC 细节、索引、锁、慢 SQL、主从复制和分库分表题。

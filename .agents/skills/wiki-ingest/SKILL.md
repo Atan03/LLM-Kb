@@ -132,6 +132,20 @@ From the source, identify:
 - **Relationships** between concepts (what connects to what)
 - **Open questions** the source raises but doesn't answer
 
+Classification rules (must apply on every ingest):
+
+- `concept`: abstract mechanism, method, principle, pattern, or process that answers "what it is / how it works / when to use it".
+- `entity`: concrete named object such as framework, product, protocol implementation, company, person, or tool that answers "who/what it is and its role".
+- `relationship`: first-class knowledge, but usually stored inside concept/entity pages through explicit links and relationship sections; do not create a standalone relationship page by default.
+- Create a dedicated synthesis page for relationships only when the relationship structure itself is complex and cross-cuts many pages.
+
+Minimum creation policy:
+
+- For each source, explicitly evaluate both concept and entity candidates before writing pages.
+- If the source discusses named frameworks/tools/systems, create or update corresponding entity pages.
+- If only concepts were created, run one extra pass to ensure entity extraction was not missed.
+- Every newly created page must link to at least 2 relevant existing pages to materialize relationships in the graph.
+
 **Track provenance per claim as you go.** For each claim you extract, mentally tag it as:
 - *Extracted* — the source explicitly states this
 - *Inferred* — you're generalizing across sources, drawing an implication, or filling a gap
@@ -155,6 +169,11 @@ Before writing anything, plan which pages to update or create. Aim for 10-15 pag
 - If it exists, what new information does this source add?
 - If it's new, which category does it belong in?
 - What `[[wikilinks]]` should connect it to existing pages?
+
+Plan structure requirement:
+
+- Split the plan into `concept candidates`, `entity candidates`, and `relationship placements`.
+- `relationship placements` should specify where relationships will be recorded (concept/entity pages by default, synthesis page only when warranted).
 
 ### Step 5: Write/Update Pages
 
