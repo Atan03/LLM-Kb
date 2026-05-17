@@ -196,3 +196,59 @@ Update this whenever interview ingestion creates a new canonical question or mer
   - Topic: `agent`
   - Variants: `1`
   - Last merged: `2026-05-11 17:00:00 CST`
+- `[[interview/questions/java-thread-pool-rejection-policy]]`
+  - Topic: `java-concurrency`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/java-thread-pool-sizing-and-dynamic-tuning]]`
+  - Topic: `java-concurrency`
+  - Variants: `3`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/mysql-deep-pagination]]`
+  - Topic: `database`
+  - Variants: `2`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/mysql-slow-query-beyond-index]]`
+  - Topic: `database`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/jvm-oom排查与heap-dump分析]]`
+  - Topic: `jvm`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/cot-vs-tot-reasoning-patterns]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/agent-coreference-resolution-intent-recognition]]`
+  - Topic: `agent`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/rag-chunking-strategy]]`
+  - Topic: `rag`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/rag-evaluation-metrics]]`
+  - Topic: `rag`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/rag-knowledge-base-strategy-selection]]`
+  - Topic: `llm-application`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/lora-fine-tuning-small-dataset]]`
+  - Topic: `llm-application`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/kafka-consumer-idempotency]]`
+  - Topic: `mq`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/kafka-backpressure-consumer-protection]]`
+  - Topic: `mq`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`
+- `[[interview/questions/kafka-message-backlog-handling]]`
+  - Topic: `mq`
+  - Variants: `1`
+  - Last merged: `2026-05-12 00:00:00 CST`

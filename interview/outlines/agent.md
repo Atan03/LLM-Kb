@@ -3,11 +3,11 @@ title: Agent Interview Outline
 category: interview-outline
 topic: agent
 summary: Compact study guide for Agent architecture, AI Coding, orchestration, skills, and tooling questions.
-question_count: 12
+question_count: 14
 chapter_count: 0
 status: growing
 created: 2026-05-07T00:00:00+08:00
-updated: 2026-05-11T17:00:00+08:00
+updated: 2026-05-12T00:00:00+08:00
 ---
 
 # Agent Interview Outline
@@ -60,6 +60,8 @@ Agent 面试不要只背框架名，要围绕一条平台设计主线回答：�
 - [[interview/questions/long-running-agent-workflow-persistence-and-resume]]
 - [[interview/questions/claude-code-hooks-engineering-controls]]
 - [[interview/questions/function-calling-planning-and-tool-orchestration]]
+- [[interview/questions/cot-vs-tot-reasoning-patterns]]
+- [[interview/questions/agent-coreference-resolution-intent-recognition]]
 
 ## Key Concepts
 
@@ -87,6 +89,10 @@ Agent 面试不要只背框架名，要围绕一条平台设计主线回答：�
 - Planning DAG
 - Tool Failure Recovery
 - Trace / LangFuse
+- CoT / ToT
+- Coreference Resolution
+- Intent Classification
+- Structured Output
 
 ## Open Gaps
 

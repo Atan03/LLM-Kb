@@ -49,19 +49,19 @@ Track the health and growth of lecture-style outlines.
   - Status: `growing`
 - `[[interview/outlines/java-concurrency]]`
   - Topic: `java-concurrency`
-  - Question count: `5`
+  - Question count: `7`
   - Chapter count: `0`
   - Last reframed: `2026-05-07`
   - Status: `growing`
 - `[[interview/outlines/database]]`
   - Topic: `database`
-  - Question count: `2`
+  - Question count: `4`
   - Chapter count: `0`
   - Last reframed: `2026-05-07`
   - Status: `growing`
 - `[[interview/outlines/jvm]]`
   - Topic: `jvm`
-  - Question count: `2`
+  - Question count: `3`
   - Chapter count: `0`
   - Last reframed: `2026-05-07`
   - Status: `growing`
@@ -91,13 +91,13 @@ Track the health and growth of lecture-style outlines.
   - Status: `growing`
 - `[[interview/outlines/mq]]`
   - Topic: `mq`
-  - Question count: `2`
+  - Question count: `5`
   - Chapter count: `0`
   - Last reframed: `none`
   - Status: `growing`
 - `[[interview/outlines/rag]]`
   - Topic: `rag`
-  - Question count: `3`
+  - Question count: `5`
   - Chapter count: `0`
   - Last reframed: `none`
   - Status: `growing`

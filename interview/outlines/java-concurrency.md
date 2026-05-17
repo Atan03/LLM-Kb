@@ -3,11 +3,11 @@ title: Java Concurrency Interview Outline
 category: interview-outline
 topic: java-concurrency
 summary: Compact study guide for current Java concurrency production-risk questions.
-question_count: 5
+question_count: 7
 chapter_count: 0
 status: growing
 created: 2026-05-07T00:00:00+08:00
-updated: 2026-05-11T17:00:00+08:00
+updated: 2026-05-12T00:00:00+08:00
 ---
 
 # Java Concurrency Interview Outline
@@ -33,6 +33,8 @@ Java 并发面试常见两类题：一类是“线程怎么协作收敛”（并
 - [[interview/questions/java-lock-types-implementations]]
 - [[interview/questions/java-aqs-reentrantlock]]
 - [[interview/questions/java-cas-atomic-operations]]
+- [[interview/questions/java-thread-pool-rejection-policy]]
+- [[interview/questions/java-thread-pool-sizing-and-dynamic-tuning]]
 
 ## Key Concepts
 
@@ -51,6 +53,11 @@ Java 并发面试常见两类题：一类是“线程怎么协作收敛”（并
 - CAS / ABA Problem
 - ReentrantLock / Condition
 - StampedLock
+- RejectedExecutionHandler
+- Backpressure
+- Dynamic Thread Pool
+- Nacos Config Listener
+- IO-Bound Thread Sizing
 
 ## Open Gaps
 

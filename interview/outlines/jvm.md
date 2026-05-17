@@ -3,11 +3,11 @@ title: JVM Interview Outline
 category: interview-outline
 topic: jvm
 summary: Compact study guide for current JVM object allocation and GC questions.
-question_count: 2
+question_count: 3
 chapter_count: 0
 status: growing
 created: 2026-05-07T00:00:00+08:00
-updated: 2026-05-07T10:27:14+08:00
+updated: 2026-05-12T00:00:00+08:00
 ---
 
 # JVM Interview Outline
@@ -35,6 +35,7 @@ GC 触发题接在对象创建之后就很自然：对象不断进入堆，年�
 
 - [[interview/questions/jvm-object-creation-memory-changes]]
 - [[interview/questions/jvm-gc-trigger-conditions]]
+- [[interview/questions/jvm-oom排查与heap-dump分析]]
 
 ## Key Concepts
 
@@ -47,6 +48,11 @@ GC 触发题接在对象创建之后就很自然：对象不断进入堆，年�
 - Minor GC
 - Full GC
 - Metaspace
+- OOM Types
+- Heap Dump
+- Eclipse MAT
+- GC Roots
+- Memory Leak
 
 ## Open Gaps
 

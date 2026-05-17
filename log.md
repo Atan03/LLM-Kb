@@ -4,6 +4,7 @@ title: Wiki Log
 
 # Wiki Log
 
+- [2026-05-12 00:00:00 CST] INTERVIEW_INGEST source="/Users/atan/Documents/llm-wiki-sources/interviews/20260512-阿里-agent应用开发.md" canonical_created=11 canonical_updated=5 outlines_updated=6 topics=java-concurrency,database,jvm,agent,rag,llm-application,mq
 - [2026-05-11 17:00:00 CST] INTERVIEW_INGEST source="/Users/atan/Documents/llm-wiki-sources/interviews/20260511-京东-ai后端实习.md" canonical_created=7 canonical_updated=3 outlines_updated=3 topics=backend-system-design,java-concurrency,agent
 - [2026-05-11 15:07:11 CST] INTERVIEW_INGEST source="/Users/atan/Documents/llm-wiki-sources/interviews/20260511-快手aiagent-agent开发.md" canonical_created=2 canonical_updated=1 outlines_updated=2 topics=rag,llm-application,agent
 - [2026-05-10 18:45:00 CST] INGEST source="/Users/atan/Documents/llm-wiki-sources/blog-posts/Spring 中的设计模式详解.pdf" pages_updated=7 pages_created=2 mode=full notes="forced re-ingest; added entity layer and refreshed spring concept cross-links"

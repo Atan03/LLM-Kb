@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "stats": {
+    "total_sources_ingested": 1,
+    "total_pages": 7
+  },
+  "sources": {
+    "/Users/atan/Documents/llm-wiki-sources/blog-posts/Spring 中的设计模式详解.pdf": {
+      "ingested_at": "2026-05-10T18:45:00+08:00",
+      "size_bytes": 993279,
+      "modified_at": 1778408391.1366832,
+      "content_hash": "sha256:72c3f3a3cdd17076ca2ed2c0f371d101133cdbf21b97c39f067c756b6f0ba825",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "concepts/spring-ioc-container.md",
+        "concepts/spring-aop-proxy.md",
+        "concepts/spring-singleton-registry.md",
+        "concepts/spring-template-method-callback.md",
+        "concepts/spring-event-observer.md",
+        "entities/spring-framework.md",
+        "entities/spring-boot.md"
+      ],
+      "pages_updated": [
+        "interview/questions/spring-sourcecode-design-patterns.md",
+        "index.md"
+      ]
+    }
+  }
+}

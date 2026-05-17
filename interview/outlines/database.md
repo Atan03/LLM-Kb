@@ -3,11 +3,11 @@ title: Database Interview Outline
 category: interview-outline
 topic: database
 summary: Compact study guide for database transaction and locking interview questions.
-question_count: 2
+question_count: 4
 chapter_count: 0
 status: growing
 created: 2026-05-07T00:00:00+08:00
-updated: 2026-05-09T11:17:19+08:00
+updated: 2026-05-12T00:00:00+08:00
 ---
 
 # Database Interview Outline
@@ -32,6 +32,8 @@ updated: 2026-05-09T11:17:19+08:00
 
 - [[interview/questions/database-transaction-acid]]
 - [[interview/questions/mysql-locking-and-optimistic-vs-pessimistic]]
+- [[interview/questions/mysql-deep-pagination]]
+- [[interview/questions/mysql-slow-query-beyond-index]]
 
 ## Key Concepts
 
@@ -43,7 +45,13 @@ updated: 2026-05-09T11:17:19+08:00
 - Isolation Level
 - Record/Gap/Next-Key Lock
 - Optimistic vs Pessimistic Lock
+- Deep Pagination
+- Covering Index
+- Keyset Pagination
+- Lock Wait
+- MDL Lock
+- Connection Pool
 
 ## Open Gaps
 
-- 还缺少隔离级别、MVCC 细节、索引、锁、慢 SQL、主从复制和分库分表题。
+- 还缺少隔离级别、MVCC 细节、索引、慢 SQL、主从复制和分库分表题。
